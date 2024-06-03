@@ -6,7 +6,7 @@ public class Main {
     public static void main(String[] args) {
         String author = "Olumide";
         System.out.println("Welcome back, " + author);
-        int x = 1234001;
+        int x = 1234;
         int sumOfDigits = 0;
         while (true) {
             sumOfDigits = sumOfDigits + (x %10);

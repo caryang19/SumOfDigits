@@ -10,12 +10,26 @@ public class Main {
         int sumOfDigits = 0;
         while (true) {
             sumOfDigits = sumOfDigits + (x %10);
-            System.out.println("current sumOfDigits" + sumOfDigits);
+
             x = x / 10;
             if (x < 1) {
                 break;
             }
         }
         System.out.println("Sum of Digits " +sumOfDigits);
+        System.out.println("******************************");
+
+        //Using Methods
+        loop(1, 10);
+        System.out.println("******************************");
+        loop(20, 40);
+
+
             }
+    public static void loop(int start, int stop)  {
+        for(; start <= stop; start++){
+            System.out.println(start);
         }
+
+    }
+}
